@@ -1,3 +1,21 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.folder > .folder-title::before {
+  content: "📁 "; // 폴더 이모지
+  display: inline-block;
+  margin-right: 5px;
+}
+
+// 선택적: 열린 폴더일 때 다른 아이콘
+.folder.open > .folder-title::before {
+  content: "📂 "; // 열린 폴더 이모지
+}
+
+// 선택적: 파일 아이콘도 추가하려면
+.explorer-item:not(.folder) > a::before {
+  content: "📄 "; // 문서 이모지
+  display: inline-block;
+  margin-right: 5px;
+}

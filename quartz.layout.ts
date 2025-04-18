@@ -14,6 +14,33 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
+// 새로운 커스텀 컴포넌트 만들기
+const CustomStyles = () => {
+  function CustomCSS() {
+    return null // 아무것도 렌더링하지 않음
+  }
+  
+  // 컴포넌트에 CSS 추가
+  CustomCSS.css = `
+    .folder > .folder-title::before {
+      content: "📁 ";
+      display: inline-block;
+      margin-right: 5px;
+    }
+    
+    .folder.open > .folder-title::before {
+      content: "📂 ";
+    }
+    
+    .explorer-item:not(.folder) > a::before {
+      content: "📄 ";
+      display: inline-block;
+      margin-right: 5px;
+    }
+  `
+  return CustomCSS
+}
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -24,6 +51,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    CustomStyles(),
   ],
   left: [
     Component.PageTitle(),
