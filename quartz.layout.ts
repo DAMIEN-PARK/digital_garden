@@ -94,3 +94,30 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
+
+// 태그 클라우드 컴포넌트 사용
+export const tagCloudLayout: PageLayout = {
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+  ],
+  body: Component.Content(), // pageBody → body로 변경
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
+    Component.Explorer(),
+  ],
+  right: [
+    Component.TagCloud(),
+  ],
+}
