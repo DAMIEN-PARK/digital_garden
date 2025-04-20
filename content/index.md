@@ -1,27 +1,9 @@
 ---
-title: initial page
+title: Home
 ---
 
-this is photo of profile
+web page 제작중
+
 ![[profile.png|300]]
 
-폴더 구조 변경
-```
-```
-/
-├── knowledge
-│   ├── ai
-│   ├── data
-│   ├── db
-│   ├── development
-│   └── game
-├── projects
-├── output
-├── posts
-├── relation
-├── tools (optional)
-├── reference (optional)
-├── idea (optional)
-├── log (optional)
-└── etc
 
