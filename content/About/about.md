@@ -7,9 +7,19 @@ tags:
 
 ---
 
+### So far
+#### 작업
+
+#### 책
 
 
-안녕하세요 데미안입니다
+#### 공부
 
-뭐하나 테스트하겠습니다
+```dataview
+table source
+from "강의노트"
+where contains(tags, "강의노트")
+sort created desc
+limit 5
+```
 

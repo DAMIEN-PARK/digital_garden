@@ -1,0 +1,19 @@
+---
+tags:
+  - Book
+Title: "{{title}}"
+Author: "{{author}}"
+category: "{{category}}"
+Publisher: "{{publisher}}"
+Publish: "{{publishDate}}"
+Cover: "{{coverUrl}}"
+Status: ⏳Ready
+Created: "{{DATE:YYYY-MM-DD HH:mm:ss}}"
+total: "{{totalPage}}"
+isbn: "{{isbn10}}{{isbn13}}"
+isbn13: "{{isbn13}}"
+---
+
+### 제목 : {{title}}    | 저자 : {{author}}
+![cover|150]({{coverUrl}})
+
