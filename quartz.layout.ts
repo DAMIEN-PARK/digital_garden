@@ -121,3 +121,31 @@ export const tagCloudLayout: PageLayout = {
     Component.TagCloud(),
   ],
 }
+
+// STORY 폴더 레이아웃
+export const storyFolderLayout: PageLayout = {
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.FolderContent(), // 폴더 내용 표시
+  ],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
+    Component.Explorer(),
+  ],
+  right: [
+    Component.Calendar(), // 달력 추가
+    Component.Graph(),    // 그래프도 포함
+  ],
+}
