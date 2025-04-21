@@ -1,5 +1,6 @@
 ---
 title: Home
+layout: graph
 ---
 
 web page 제작중
