@@ -101,8 +101,8 @@ export const tagCloudLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+    Component.Content(),
   ],
-  body: Component.Content(), // pageBody → body로 변경
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
