@@ -1,14 +1,15 @@
 ---
 tags:
   - Book
-Title: "{{title}}"
-Author: "{{author}}"
+title: "{{title}}"
+Author:
+  - "{{author}}"
 category: "{{category}}"
 Publisher: "{{publisher}}"
 Publish: "{{publishDate}}"
 Cover: "{{coverUrl}}"
 Status: ⏳Ready
-Created: "{{DATE:YYYY-MM-DD HH:mm:ss}}"
+date: "{{DATE:YYYY-MM-DD HH:mm:ss}}"
 total: "{{totalPage}}"
 isbn: "{{isbn10}}{{isbn13}}"
 isbn13: "{{isbn13}}"
