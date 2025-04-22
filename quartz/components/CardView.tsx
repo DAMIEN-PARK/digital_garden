@@ -3,8 +3,8 @@ import { resolveRelative } from "../util/path"
 import { Fragment } from "preact"
 
 function CardView({ allFiles, fileData }: QuartzComponentProps) {
-  // 현재 폴더 경로
-  const folderSlug = fileData.slug
+  // 현재 폴더 경로 (undefined 체크 추가)
+  const folderSlug = fileData.slug || ""
   
   // 현재 폴더에 속한 파일만 필터링
   const filesInFolder = allFiles.filter(file => {
@@ -19,7 +19,7 @@ function CardView({ allFiles, fileData }: QuartzComponentProps) {
       <div className="card-grid">
         {filesInFolder.map(file => {
           // 파일 경로 생성
-          const href = resolveRelative(fileData.slug!, file.slug!)
+          const href = resolveRelative(fileData.slug || "", file.slug || "")
           // 표지 이미지 경로 (있다면)
           const coverImage = file.frontmatter?.cover || file.frontmatter?.image
           
@@ -27,7 +27,7 @@ function CardView({ allFiles, fileData }: QuartzComponentProps) {
             <div className="card" key={file.slug}>
               <a href={href} className="card-link">
                 <div className="card-cover">
-                  {coverImage ? (
+                  {coverImage && typeof coverImage === 'string' ? (
                     <img 
                       src={coverImage} 
                       alt={file.frontmatter?.title || "Cover"} 
