@@ -1,5 +1,5 @@
 ---
-title: <% tp.file.title %>
+title: "{{title}}"
 date: ""
 tags: 
 isbn13: "         {{}}"
