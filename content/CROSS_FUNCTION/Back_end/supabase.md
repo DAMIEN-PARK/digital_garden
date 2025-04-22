@@ -4,10 +4,11 @@ description: supabase 소개
 date: 2025-04-22
 tags:
   - DB
+  - backend
 ---
 
 ---
-### 0. 요약
+### 0. summary
 - url : [SUPABASE](https://supabase.com/dashboard/projects)
 Supabase는 "Firebase의 오픈 소스 대안"으로 불림 
 실시간 데이터베이스, 인증, 파일 스토리지, 자동 API 생성 등 백엔드 개발에 필요한 기능을 패키지로 제공

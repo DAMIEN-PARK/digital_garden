@@ -1,10 +1,8 @@
 ---
-title: about
+title: 페이지에 관하여
 date: 2025-04-21
 tags:
 ---
-
-
 ---
 
 ### So far
