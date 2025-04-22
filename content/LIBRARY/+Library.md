@@ -1,7 +1,8 @@
 ---
 title: 
-date: 2025-04-21
-tags:
+date: ""
+tags: 
+isbn13: "         {{}}"
 ---
 
 
