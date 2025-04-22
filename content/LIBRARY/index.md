@@ -1,9 +1,9 @@
 ---
 title: LIBRARY
-layout: cardViewLayout
+layout: dataViewLayout
 ---
 
-이 페이지에서는 도서 목록을 카드 형식으로 볼 수 있습니다.
+이 페이지에서는 옵시디언의 Dataview 플러그인과 비슷한 형태로 도서 목록을 볼 수 있습니다.
 
 
 

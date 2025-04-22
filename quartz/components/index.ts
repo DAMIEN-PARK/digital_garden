@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import TagCloud from "./TagCloud"
 import CardView from "./CardView"
+import DataViewGallery from "./DataViewGallery"
 
 export {
   ArticleTitle,
@@ -54,4 +55,31 @@ export {
   ConditionalRender,
   TagCloud,
   CardView,
+  DataViewGallery,
+}
+
+export const dataViewLayout: PageLayout = {
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.DataViewGallery(),
+  ],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
+    Component.Explorer(),
+  ],
+  right: [
+    Component.Graph(),
+  ],
 }
