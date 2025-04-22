@@ -121,3 +121,30 @@ export const tagCloudLayout: PageLayout = {
     Component.TagCloud(),
   ],
 }
+
+// 카드 뷰 레이아웃
+export const cardViewLayout: PageLayout = {
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.CardView(), // 폴더 카드 뷰
+  ],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
+    Component.Explorer(),
+  ],
+  right: [
+    Component.Graph(),
+  ],
+}
