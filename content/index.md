@@ -1,5 +1,5 @@
 ---
-title: Damien Lab
+title: Welcome
 description: 지식과 생각을 키우는 정원
 layout: graph
 ---
