@@ -15,6 +15,7 @@ isbn: "{{isbn10}}{{isbn13}}"
 isbn13: "{{isbn13}}"
 ---
 
-### 제목 : {{title}}    | 저자 : {{author}}
 ![cover|150]({{coverUrl}})
+###  {{title}}    
+- 저자 : {{author}}
 
