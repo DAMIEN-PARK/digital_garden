@@ -4,17 +4,9 @@ description:
 date: 2025-04-22
 tags:
 ---
-
-
 ---
-
-
-
-
 # Quartz 플러그인 제작 가이드 요약
-
 이 페이지는 Quartz에서 자체 플러그인을 만드는 방법에 대한 상세한 가이드입니다. TypeScript 작업 지식이 있는 개발자를 대상으로 합니다.
-
 ## 플러그인 기본 구조
 
 Quartz 플러그인은 콘텐츠에 대한 일련의 변환으로, 세 가지 유형이 있습니다:
@@ -48,7 +40,6 @@ export type QuartzTransformerPluginInstance = {
 예시로 Latex 플러그인이 포함되어 있습니다.
 
 ## 2. Filter 플러그인
-
 Filter 플러그인은 변환된 콘텐츠 중 어떤 것을 유지하고 버릴지 결정합니다:
 
 ```typescript

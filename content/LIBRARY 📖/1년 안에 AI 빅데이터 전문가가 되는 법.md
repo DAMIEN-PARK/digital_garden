@@ -10,7 +10,7 @@ Publisher: 반니
 Publish: "2020"
 Cover: https://shopping-phinf.pstatic.net/main_3246414/32464144798.20250411141754.jpg
 Status:
-  - ⏳Ready
+  ✔️Done
 date: 2025-04-23
 total: ""
 isbn: "9791190467117"
@@ -53,3 +53,4 @@ isbn13: "9791190467117"
 [[Kaggle]]캐글 경연대회 
 #### 강의
 [[강의-모두를 위한 딥러닝]] [링크](https://www.inflearn.com/course/reinforcement-learning) 홍콩 과기대 김성훈 교수
+선형대수학 [3blue 1brown](https://www.youtube.com/channel/UCJK07Uk2KY9r78ksPoXg-3g)
