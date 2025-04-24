@@ -2,7 +2,9 @@
 title: Quartz4 플러그인 소개
 description: 
 date: 2025-04-22
-tags:
+tags: 
+URL: 
+draft: true
 ---
 
 ---
@@ -19,7 +21,7 @@ tags:
 - **Citations**: 인용문을 처리하여 참고 문헌 목록을 생성합니다
 
 ### 🧹 Filter 플러그인 (콘텐츠 필터링)
-- **RemoveDrafts** `draft: true`로 표시된 문서를 게시 대상에서 제외
+- **[RemoveDrafts](https://quartz.jzhao.xyz/plugins/RemoveDrafts)** `draft: true`로 표시된 문서를 게시 대상에서 제외
 - **ExplicitPublish** `publish: true`로 명시된 문서만 게시하며, 나머지는 제외
 
 ### 📤 Emitter 플러그인 (콘텐츠 출력)
