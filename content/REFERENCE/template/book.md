@@ -8,11 +8,14 @@ category: "{{category}}"
 Publisher: "{{publisher}}"
 Publish: "{{publishDate}}"
 Cover: "{{coverUrl}}"
-Status: ⏳Ready
-date: {{date}}
+Status:
+  - ⏳Ready
+date:
+  "{ date }": 
 total: "{{totalPage}}"
 isbn: "{{isbn10}}{{isbn13}}"
 isbn13: "{{isbn13}}"
+draft: true
 ---
 
 ![cover|150]({{coverUrl}})

@@ -5,6 +5,7 @@ tags:
   - Python
   - 개발환경
   - 가상환경
+draft:
 ---
 
 # Python 가상환경 사용법

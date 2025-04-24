@@ -10,11 +10,12 @@ Publisher: 리코멘드
 Publish: "2024"
 Cover: https://shopping-phinf.pstatic.net/main_4791436/47914364621.20240524071048.jpg
 Status:
-  ⏳Ready
+  - ⏳Ready
 date: 2025-04-23
 total: ""
 isbn: "9791198364296"
 isbn13: "9791198364296"
+draft:
 ---
 
 ![cover|150](https://shopping-phinf.pstatic.net/main_4791436/47914364621.20240524071048.jpg)

@@ -10,11 +10,12 @@ Publisher: 반니
 Publish: "2020"
 Cover: https://shopping-phinf.pstatic.net/main_3246414/32464144798.20250411141754.jpg
 Status:
-  ✔️Done
+  - ✔️Done
 date: 2025-04-23
 total: ""
 isbn: "9791190467117"
 isbn13: "9791190467117"
+draft:
 ---
 
 ![cover|150](https://shopping-phinf.pstatic.net/main_3246414/32464144798.20250411141754.jpg)

@@ -1,7 +1,9 @@
 ---
 title: <% tp.file.title %>
 description: 
-date: {{date}}
+date:
+  "{ date }": 
 tags:
   - inbox
+draft: true
 ---

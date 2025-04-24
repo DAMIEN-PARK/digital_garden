@@ -4,6 +4,7 @@ date: 2024-07-05
 tags:
   - SQL
   - DB
+draft:
 ---
 
 # SQL 기초 문법 정리

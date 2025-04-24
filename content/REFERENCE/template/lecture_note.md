@@ -1,9 +1,11 @@
 ---
 title: <% tp.file.title %>
 description: 
-date: {{date}}
+date:
+  "{ date }": 
 tags: 
-URL:
+URL: 
+draft: true
 ---
 
 #  강의노트 - <% tp.date.now("YYYY.MM.DD") %>
