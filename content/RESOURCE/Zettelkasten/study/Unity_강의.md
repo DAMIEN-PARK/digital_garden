@@ -10,7 +10,7 @@ tags:
 ---
 유니티에 온걸 환영한다
 
-### Package  설치
+## Package  설치
 ![[Pasted image 20250425150708.png]]
 
 설치한 Package 목록록
@@ -22,13 +22,13 @@ tags:
 - Water shaders
 - Handpainted Grass
 
-### Hierachy
-##### Terrain 
+## Hierachy
+### Terrain 
 - 처음 열게 되면 inspector >> Terrain  나오게 된다
 
 ![[Pasted image 20250425165617.png]]
 
-##### Paint Terrain
+### Paint Terrain
 - Paint Texture를 선택 >> Edit Terrain Layers 에서 
 	- Creat Layer  해서 잔디(Grass) 선택해서 깔아준다
 	- 이후 Add Layer 로 여러 잔디 유형을 선택후 취사에 맞게 디자인한다
@@ -36,14 +36,15 @@ tags:
 
 ![[Pasted image 20250425165732.png]]
 
-##### Paint Tree 
+### Paint Tree 
 ![[Pasted image 20250425170147.png]]
 - Edit Trees 에서 Tree를 고른후 적당한 브러쉬로 디자인한다
 	- Brush size 
 	- Desity 나무의 밀도 
 
-##### Water 
+### Water 
 물웅덩이 제작
+
 ![[Pasted image 20250425170633.png]]
 
 - Terrain(Inspector) 에서 Paint Holes를 선택하여 구멍을 내준다.
@@ -56,7 +57,7 @@ tags:
 
 크기는 툴조정하는 Rect Tool 을 이용하여 조정
 
-##### Fence 
+### Fence 
 - 받은 에셋에서 wooden fence를 선택해서 배치한다
 - 경로는 이러하다
 	![[Pasted image 20250425171258.png]]
@@ -68,7 +69,7 @@ tags:
 
 ![[Pasted image 20250425171617.png|500]]
 
-##### Canvas
+### Canvas
 - Hierachy 에서 마우스 우클릭 하하면 UI>>Canvas를 생성한다
 	
 	![[Pasted image 20250425171851.png|500]]
@@ -80,12 +81,12 @@ tags:
 - Raw image를 추가 한후 Texture ⭕오른쪽 끝 circle 누르면 폴더가 나온다 여기서 우선 이미지를 불러온다
 	![[Pasted image 20250425172706.png|700]]
 
-##### Character
+### Character
 - 우선 Asset store에서 받은 캐릭터를 불러온다
  ![[Pasted image 20250425173134.png|500]]
  
 
-##### NPC
+### NPC
 
 
 
