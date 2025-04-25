@@ -8,10 +8,12 @@ tags:
 
 
 ---
+유니티에 온걸 환영한다
 
-
-### package  설치
+### Package  설치
 ![[Pasted image 20250425150708.png]]
+
+설치한 Package 목록록
 - city people Free
 - Basic Motions
 - Toon City Pack
