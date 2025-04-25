@@ -23,13 +23,15 @@ tags:
 ### Hierachy
 ##### Terrain 
 - 처음 열게 되면 inspector >> Terrain  나오게 된다
+
 ![[Pasted image 20250425165617.png]]
 
 ##### Paint Terrain
 - Paint Texture를 선택 >> Edit Terrain Layers 에서 
 	- Creat Layer  해서 잔디(Grass) 선택해서 깔아준다
 	- 이후 Add Layer 로 여러 잔디 유형을 선택후 취사에 맞게 디자인한다
-	- 아스팔트나 진흙으로 길을 낸다다
+	- 아스팔트나 진흙으로 길을 낸다
+
 ![[Pasted image 20250425165732.png]]
 
 ##### Paint Tree 
@@ -49,6 +51,7 @@ tags:
 	![[Pasted image 20250425170934.png]]
 	- 받은 에셋에서 Water를 드래그해서 올려 놓으면 끝
 	 ![[Pasted image 20250425171038.png]]
+
 크기는 툴조정하는 Rect Tool 을 이용하여 조정
 
 ##### Fence 
@@ -60,10 +63,11 @@ tags:
 - 
 ![[Pasted image 20250425171444.png]]
 - Creat Empty 를  통해 Object 폴더?를 만들어 fence들을 안에 배치해 주면 추후에 object 폴더 하나로 여러 Fence를 쉽게 배치조정 한다.
+
 ![[Pasted image 20250425171617.png|500]]
 
 ##### Canvas
-- Hierachy 에서 마우스 우클리갛면 UI>>Canvas를 생성한다
+- Hierachy 에서 마우스 우클릭 하하면 UI>>Canvas를 생성한다
 	
 	![[Pasted image 20250425171851.png|500]]
 
