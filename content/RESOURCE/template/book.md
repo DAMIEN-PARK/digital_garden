@@ -10,8 +10,7 @@ Publish: "{{publishDate}}"
 Cover: "{{coverUrl}}"
 Status:
   - ⏳Ready
-date:
-  "{ date }": 
+date:  "{{DATE:YYYY-MM-DD HH:mm:ss}}" 
 total: "{{totalPage}}"
 isbn: "{{isbn10}}{{isbn13}}"
 isbn13: "{{isbn13}}"

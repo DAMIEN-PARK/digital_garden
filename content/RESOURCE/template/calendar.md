@@ -1,12 +1,15 @@
 ---
 title: <% tp.file.title %>
 description: 
-date:
-  "{ date }": 
+date: [[<% tp.file.creation_date("YYYY-MM-DD") %>]]
 tags: 
 draft: true
 ---
 
+```todoist
+name : todoist 할일 ({task_count})
+filter : "today"
+```
 
 ### TIL
 #### Dev

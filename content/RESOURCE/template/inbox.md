@@ -1,8 +1,7 @@
 ---
 title: <% tp.file.title %>
 description: 
-date:
-  "{ date }": 
+date:  [[<% tp.file.creation_date("YYYY-MM-DD") %>]]
 tags:
   - inbox
 draft: true

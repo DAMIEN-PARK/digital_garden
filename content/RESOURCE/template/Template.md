@@ -1,7 +1,7 @@
 ---
 title: <% tp.file.title %>
 description: 
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: [[<% tp.file.creation_date("YYYY-MM-DD") %>]]
 tags: 
 draft: true
 ---

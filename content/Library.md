@@ -18,7 +18,7 @@ FROM #Book
 WHERE file.folder = "LIBRARY"
 
 SORT file.mtime DESC
-LIMIT 20
+LIMIT 5
 ```
 
 
