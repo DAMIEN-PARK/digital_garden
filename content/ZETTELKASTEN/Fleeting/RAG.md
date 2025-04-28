@@ -13,12 +13,21 @@ draft: true
 ### 분할
  
 ### 임베딩
-- Vector_DB : LLM에 제공하고자 하는 context를 저장. 이를 위해서 자연어와 비정형데이터 문서를 -1과 1 사이 실수로 바꿔주는 임베딩 과정이 필요함
+- Vector_DB : LLM에 제공하고자 하는 context를 저장. 
+	이를 위해서 자연어와 비정형데이터 문서를 -1과 1 사이 실수로 바꿔주는 임베딩 과정이 필요함.
+	유사도 계산을 위해 -1 과 +1 사이 실수로 변환함. 
+
 
 ### 저장소
-https://www.google.com/search?sca_esv=73d82e864a0c9a38&hl=ko&q=rag%EB%9E%80&udm=2&fbs=ABzOT_CZsxZeNKUEEOfuRMhc2yCI6hbTw9MNVwGCzBkHjFwaK53DgNHTMxn53_XGiUHS2MvHIf0wtZoYTAs568DQAj6TFL-0_i6sgPVbDpWRW_cMTG2ftJiUgkJ-wAPdzWpr6lOiod2xSvUY_SHbnQZ8snIoyCw7ko80HTljpJfxzFWWN_XdrZJeqiATf5rVUOQ7Ho7SAmJqT4_o7_hAyfPG27vdMdbCTlQtMj6gYtAuIxEdAWHfwE4&sa=X&ved=2ahUKEwicw8O1_fmMAxVy1jQHHeSHHaMQtKgLegQIERAB&biw=1928&bih=844&dpr=1#vhid=4EPAWZDOr2cesM&vssid=mosaic
+ Vector_DB를 활용하여 생성된 text를 보완하거나 확장
 
-https://blog-ko.superb-ai.com/what-is-rag-to-make-generative-ai-smarter/
+![[Pasted image 20250428145126.png|500]]
+*다양한 verctor DB(출처 : datacamp)*
+[[VectorDB_선택가이드]]
 
 ### resources
-[블로그_rag란 무엇인가](https://brunch.co.kr/@acc9b16b9f0f430/73)
+- [블로그_rag란 무엇인가](https://brunch.co.kr/@acc9b16b9f0f430/73)
+- [랭체인LangChain 노트](https://wikidocs.net/book/14314)
+
+- [유튜버_테디노트](https://www.youtube.com/channel/UCt2wAAXgm87ACiQnDHQEW6Q)
+- 
