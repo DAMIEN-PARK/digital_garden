@@ -12,8 +12,12 @@ URL: https://supabase.com/dashboard/projects
 ### 0. summary
 - url : [SUPABASE](https://supabase.com/dashboard/projects)
 Supabase는 "Firebase의 오픈 소스 대안"으로 불림 
-실시간 데이터베이스, 인증, 파일 스토리지, 자동 API 생성 등 백엔드 개발에 필요한 기능을 패키지로 제공
-프론트엔드 개발자도 손쉽게 강력한 애플리케이션을 만들 수 있게 해주는 플랫폼
+실시간 데이터베이스, 인증, 파일 스토리지, 자동 API 생성 등 [[BackEnd]] 개발에 필요한 기능을 패키지로 제공
+[[FrontEnd]] 개발자도 손쉽게 강력한 애플리케이션을 만들 수 있게 해주는 플랫폼
+빠르게 시작하고, 자유롭게 확장할 수 있는 오픈 소스 [[BackEnd]] 플랫폼.  
+- 초기 MVP 또는 스타트업 서비스 구축에 추천
+- SQL 중심 팀워크에 이상적
+- 보안 및 실시간 기능도 기본 제공
 ### 1. Supabase 란 무엇인가?
 - 오픈 소스 기반 백엔드 플랫폼
 - "Firebase의 오픈 소스 대안"
@@ -59,9 +63,3 @@ Supabase는 "Firebase의 오픈 소스 대안"으로 불림
 - 사용자 등록 및 로그인
 - 게시글 CRUD 및 댓글 기능
 - [[REST API]] 자동 생성으로 빠른 구축
-### 6. 요약 및 제안
-Supabase는 빠르게 시작하고, 자유롭게 확장할 수 있는 오픈 소스 백엔드 플랫폼.  
-Firebase의 제약을 느낀다면, Supabase는 훌륭한 대안.
-- 초기 MVP 또는 스타트업 서비스 구축에 추천
-- SQL 중심 팀워크에 이상적
-- 보안 및 실시간 기능도 기본 제공
