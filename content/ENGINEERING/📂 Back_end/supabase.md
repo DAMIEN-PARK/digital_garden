@@ -5,10 +5,10 @@ date: 2025-04-22
 tags:
   - DB
   - backend
-draft:
+draft: false
+URL: https://supabase.com/dashboard/projects
 ---
 
----
 ### 0. summary
 - url : [SUPABASE](https://supabase.com/dashboard/projects)
 Supabase는 "Firebase의 오픈 소스 대안"으로 불림 
@@ -40,13 +40,12 @@ Supabase는 "Firebase의 오픈 소스 대안"으로 불림
 |실시간|웹소켓 기반|실시간 DB|
 |가격 정책|예측 가능|사용량 폭증 시 비용 증가|
 
-### 4. 왜 Supabase 를 선택하는가?
+### 4. 왜 Supabase 를 선택?
 - [[SQL]] 사용 가능: 팀 간 협업, 분석 용이
 - 완전한 커스터마이징: 오픈소스 및 셀프 호스팅
 - 실시간 반응성: 채팅, 협업 툴에 적합
 - 개발 속도 향상: API 자동화 및 보안 내장
 - 스타트업, 개인 개발자 친화적 요금제
-
 ### 5. 실제 사용 사례
 #### 5.1. [[Slack]] 클론 앱
 - 채널 기반 메시지 시스템 구현
