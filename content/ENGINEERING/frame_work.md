@@ -5,7 +5,7 @@ tags:
 ---
 
 ## Full Stak Framework
-- [[next.js]]
+- [[ZETTELKASTEN/Fleeting/next.js]]
 	*react + API Routes*   
 - Nuxt.js 
 	*Vue 기반*

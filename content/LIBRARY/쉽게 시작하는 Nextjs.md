@@ -1,16 +1,17 @@
 ---
 tags:
+  - framework
   - Book
-title: 쉽게 시작하는 Nextjs (초보자 눈높이에 맞춰 설명하는 Nextjs 입문서!)
+title: 쉽게 시작하는 Nextjs
 Author:
-  - "쇼다 츠야노"
+  - 쇼다 츠야노
 category: ""
-Publisher: "길벗"
+Publisher: 길벗
 Publish: "2024"
-Cover: "https://shopping-phinf.pstatic.net/main_5178158/51781589623.20241207071015.jpg"
+Cover: https://shopping-phinf.pstatic.net/main_5178158/51781589623.20241207071015.jpg
 Status:
   - ⏳Ready
-date:  "2025-04-28 01:24:58" 
+date: 2025-04-28 01:24:58
 total: ""
 isbn: "9791140711987"
 isbn13: "9791140711987"
@@ -21,7 +22,7 @@ draft: true
 ###  쉽게 시작하는 Next.js (초보자 눈높이에 맞춰 설명하는 Next.js 입문서!)    
 - 저자 : 쇼다 츠야노
 
-- [[next.js]] : [[React]] 기반 웹개발 [[frame_work]]
+- [[ZETTELKASTEN/Fleeting/next.js]] : [[React]] 기반 웹개발 [[frame_work]]
 	- React..js
 	- Tailwindcss
 	- JSS
@@ -33,7 +34,7 @@ draft: true
 ### **CHAPTER 1 Next.js 기초 지식**  
 1.1 Next.js 준비하기  
 - 예전 :  Web : Frontend --form--> 서버 --> 페이지 표시 
-- 발전 : frontEnd에서 모두 처리 : 리액트 ( 하지만 서버측에서도 처리가 필요해짐)
+- 발전 : FrontEnd에서 모두 처리 : React ( 하지만 서버측에서도 처리가 필요해짐)
 - 현재 : 리액트 개발자들 요구를 실현
 - Next.js를 프론트 백엔드 모두를 아우름. 
 FrontEnd에서 가장 널리 사용되는건 Framework(<- system을 가지고 있는점이 Library와 다름. )
@@ -42,7 +43,7 @@ FrontEnd에서 가장 널리 사용되는건 Framework(<- system을 가지고 �
 
 1.2 리액트 애플리케이션 
 [[React]] 는 매우 강력한 라이브러리 이지만 FrontEnd 라이브러리 일뿐. 
-리액트로 할 수 있는건 UI뿐. 백엔드부터 프론트엔드까지 통합해서 하나의 웹 애플리케이션으로 개발 할수있는 프레임 워크가 next.js
+리액트로 할 수 있는건 UI뿐. 백엔드부터 프론트엔드까지 통합해서 하나의 웹 애플리케이션으로 개발 할 수 있는 프레임 워크가 next.js
 
 1.3 Next.js 애플리케이션 개발  
 - vercel에서 개발한 오픈소스 프레임워크 
