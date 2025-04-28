@@ -13,9 +13,10 @@ draft: true
 - [ ] supabase
 - [ ] next.js
 - [ ] typescript
-#####
+##### 자동화
 - [ ] n8n
 - [ ] make
 - [ ] 
 
-
+### 진행중
+[[RAG]]

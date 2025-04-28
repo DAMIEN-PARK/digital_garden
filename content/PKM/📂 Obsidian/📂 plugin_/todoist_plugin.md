@@ -8,17 +8,12 @@ draft: false
 
 
 ---
-
-
 # 명령어 소개
 ## Query Blocks
-
 This plugin uses the concept of [filters](https://todoist.com/help/articles/introduction-to-filters-V98wIH) to fetch data from Todoist. To create a query block, insert a code block like the following in any note:
-
 ````
 ```todoistfilter: "today | overdue"```
 ````
-
 This query will fetch all tasks that are due either today or are overdue and will render them in place of this code block.
 
 ## Options[​](https://jamiebrynes7.github.io/obsidian-todoist-plugin/docs/query-blocks#options "Direct link to Options")
@@ -33,15 +28,11 @@ There are a few unsupported filters, these are tracked in [this GitHub issue](h
 - You cannot combine multiple filters with commas. E.g. - `today | overdue, p1`
 
 ### `name`[​](https://jamiebrynes7.github.io/obsidian-todoist-plugin/docs/query-blocks#name "Direct link to name")
-
 If you want to have an embedded header rendered with your query, you can use the `name` option. This will render a `<h4>` element above your tasks.
-
 For example:
-
 ````
 ```todoistname: "Today & Overdue"filter: "today | overdue"```
 ````
-
 ### `autorefresh`[​](https://jamiebrynes7.github.io/obsidian-todoist-plugin/docs/query-blocks#autorefresh "Direct link to autorefresh")
 
 The `autorefresh` option allows you to specify the number of seconds between automatic refreshes. This takes precedence over the plugin level setting. Omitting this option means the query will follow the plugin level settings.
