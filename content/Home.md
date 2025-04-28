@@ -18,7 +18,7 @@ table
 	file.mtime as "수정 시간"
 from "ZETTELKASTEN/Fleeting"
 sort file.mtime DESC
-limit 5
+limit 10
 ```
 
 ### 최근 수정된 책(5)
