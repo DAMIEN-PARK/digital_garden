@@ -8,4 +8,4 @@ draft: true
 
 
 ---
-
+- [[next.js_학습방법]]
