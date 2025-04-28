@@ -63,3 +63,13 @@ Supabase는 "Firebase의 오픈 소스 대안"으로 불림
 - 사용자 등록 및 로그인
 - 게시글 CRUD 및 댓글 기능
 - [[REST API]] 자동 생성으로 빠른 구축
+
+### Resources
+##### Youtube
+- [ ] [생활코딩_Supabase](https://youtu.be/FbLzqoENTsg?si=KvDz1u-OQA7dX6UE)
+- [ ] [생활코딩_Supabase - 인증과 Serverless App 구현하기](https://youtu.be/yZ89etxVBKs?si=yo_RaOsZ-zxPxa0W)
+- [ ] [firebase vs supabase](https://youtu.be/f8inSwfOVZc?si=TfaP61oVfVZq0Ibx)
+- [ ] [Cursor AI를 사용해서 Supabase 데이터베이스 연동 방법](https://youtu.be/26qUIBx_Bl0?si=d0cVZU6I1i7CsA1E)
+- [ ] [파이어베이스 킬러? 요즘 대세는 수파베이스!](https://www.youtube.com/watch?v=tvX9f8FqMFI)
+- [ ] [노트앱 만들기](https://youtu.be/yeqRtc_uSZs?si=UDP-dd2dA4vwgGQK)
+- [ ] 

@@ -5,7 +5,7 @@ date:
   - - 2025-04-28
 tags:
   - 웹
-draft: true
+draft: false
 ---
 
 #  REST API란?
@@ -19,7 +19,8 @@ draft: true
 - EndPoint : 사용자 or 사용자 목록 같은 특정 리소스 나 리소스 모음
 - **HTTP URI(Uniform Resource Identifier)를 통해** 리소스(자원)을 명시
   **HTTP Method(POST, GET, PUT, DELETE)를 통해** 해당 리소스에 대한 CRUD Operation을 적용하는 아키텍쳐
-
+- 
+![[Pasted image 20250428181747.png]]
 ###  예:
 > **REST API**는 편의점처럼,  
 > 내가 "콜라 하나 주세요" (요청) → 점원이 "콜라 여기 있습니다" (응답)  
@@ -119,3 +120,4 @@ REST API는 모바일 앱, 웹 애플리케이션 그리고 IoT 장치를 비롯
 ### Resources
 
 https://chloelab.tistory.com/38
+https://velog.io/@calis_ws/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-RESTful%ED%95%9C-API
