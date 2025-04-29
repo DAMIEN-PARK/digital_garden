@@ -20,12 +20,6 @@ export default ((opts?: Options) => {
               <a href={link}>{text}</a>
             </li>
           ))}
-          <li>
-            <a href="https://github.com/DAMIEN-PARK/digital_garden">Source</a>
-          </li>
-          <li>
-            <a href="https://damiengarden.vercel.app/">Home</a>
-          </li>
         </ul>
       </footer>
     )
