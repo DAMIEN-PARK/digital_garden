@@ -21,7 +21,7 @@ SORT file.mtime DESC
 LIMIT 5
 ```
 
-IT
+
 
 ```dataview
 TABLE WITHOUT ID
@@ -31,9 +31,6 @@ TABLE WITHOUT ID
     status as 상태
 
 FROM #Book and #IT
-WHERE  status = "- ⏳Ready"
-
-SORT file.mtime DESC
-
+SORT status ASC
 ```
 
