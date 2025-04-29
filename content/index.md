@@ -22,6 +22,9 @@ description: 지식과 생각을 키우는 정원
 
 ## 개인 연구
 
+
+![[Roadmap.excalidraw]]
+
 ---
 - 현재의 페이지가 길어져도 괜찮음.
 
