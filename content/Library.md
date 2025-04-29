@@ -21,6 +21,7 @@ SORT file.mtime DESC
 LIMIT 5
 ```
 
+IT
 
 ```dataview
 TABLE WITHOUT ID
@@ -29,7 +30,7 @@ TABLE WITHOUT ID
     join(list(author)) as 저자,
     status as 상태
 
-FROM #Book
+FROM #Book and #IT
 WHERE  status = "- ⏳Ready"
 
 SORT file.mtime DESC

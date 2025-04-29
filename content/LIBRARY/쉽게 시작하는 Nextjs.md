@@ -1,6 +1,7 @@
 ---
 tags:
   - framework
+  - IT
   - Book
 title: 쉽게 시작하는 Nextjs
 Author:

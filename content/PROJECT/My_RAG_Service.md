@@ -4,6 +4,7 @@ description:
 date: 2025-04-24
 tags:
   - RAG
+  - Project
 draft: true
 ---
 
@@ -133,7 +134,7 @@ RAG Meta World를 성공적으로 구현하기 위한 단계적 접근법을 제
 RAG Meta World는 인공지능과 메타버스의 결합이라는 점에서 큰 잠재력을 가지고 있습니다. 
 체계적인 접근과 최신 기술의 통합을 통해 혁신적인 플랫폼으로 발전할 수 있을 것입니다.
 
-![[Pasted image 20250424155602.png]]
+![[Pasted image 20250424155602.png|500]]
 
 ---
 - [[CoRAG]]

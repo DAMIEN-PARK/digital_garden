@@ -1,6 +1,7 @@
 ---
 tags:
   - AI
+  - IT
   - Book
 title: 1년 안에 AI 빅데이터 전문가가 되는 법
 Author:
