@@ -31,6 +31,6 @@ TABLE WITHOUT ID
     status as 상태
 
 FROM #Book and #IT
-SORT status ASC
+SORT file.mtime DESC
 ```
 
