@@ -8,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      "Source": "https://github.com/DAMIEN-PARK/digital_garden",
+      "GitHub": "https://github.com/DAMIEN-PARK/digital_garden",
       "Home": "https://damiengarden.vercel.app/",
     },
   }),
