@@ -27,4 +27,3 @@ description: 지식과 생각을 키우는 정원
 - 
 
 개인관심사 page : http://
-조성아 바보
