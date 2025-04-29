@@ -22,7 +22,7 @@ export default ((opts?: Options) => {
             </li>
           ))}
           <li>
-            <a href="https://github.com/DAMIEN-PARK">GitHub</a>
+            <a href="https://github.com/DAMIEN-PARK/digital_garden">Source</a>
           </li>
           <li>
             <a href="https://damiengarden.vercel.app/">Home</a>
