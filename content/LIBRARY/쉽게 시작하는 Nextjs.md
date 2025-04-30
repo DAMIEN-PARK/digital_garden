@@ -186,12 +186,13 @@ npm run dev
 | public       | 공개파일이 저장                         |
 | src          | Next.js 프로그램(자바스크립트 파일)이 저장되어 있음 |
 
-- 폴더 : \src\app 
+- 폴더 : \src\app : Next.js에서 사용하는 component 
 	- layout.tsx : 애플리케이션 ==공통 레이아웃 정의==한 파일
 	- page.tsx : ==표시할 페이지==를 정의
 
 ![[layout-page.excalidraw]]
 
+- .tsx 파일은 [[Typescript]] 버전 JSX
 - App Router 
 
 #### 1.4 Vercel로 배포하기  
