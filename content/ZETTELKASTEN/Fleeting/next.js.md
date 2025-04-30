@@ -3,7 +3,7 @@ title: next.js
 date: 2025-04-21
 tags:
   - framework
-draft: true
+draft: false
 ---
 
 [[next.js_학습방법]]
@@ -11,3 +11,6 @@ draft: true
 
 
 ### Resources
+
+##### book
+[[쉽게 시작하는 Next js]]
