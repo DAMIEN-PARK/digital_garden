@@ -1,8 +1,10 @@
 ---
 title: React
 description: 
-date: [[2025-04-28]]
-tags: 
+date:
+  - - 2025-04-28
+tags:
+  - FrontEnd
 draft: true
 ---
 

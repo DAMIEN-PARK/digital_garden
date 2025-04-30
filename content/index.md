@@ -20,10 +20,11 @@ description: 지식과 생각을 키우는 정원
 - [[Unity_강의]]
 - [[RAG]]
 
-## 개인 연구
+## 개인 연구중
 - [[next.js]]
 - [[Unity]]
 - [[git]]
+- [[Typescript]]
 - [[JavaScript]]
 - [[빅데이터분석]]
 
