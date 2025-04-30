@@ -24,8 +24,7 @@ description: 지식과 생각을 키우는 정원
 - [[next.js]]
 - [[Unity]]
 - [[git]]
-- [[Typescript]]
-- [[JavaScript]]
+- [[JavaScript]]  >개념정리만>  [[Typescript]]
 - [[빅데이터분석]]
 
 
@@ -35,6 +34,13 @@ description: 지식과 생각을 키우는 정원
 - [ ] [[그림으로 배우는 데이터베이스]]
 
 ---
+## 프로젝트
+- [[빅데이터분석]]
+- 데이터분석 시각화
+- unity
+- 업무자동화
+	n8n, make
+
 
 ### 공사내용
 -  페이지 작업중

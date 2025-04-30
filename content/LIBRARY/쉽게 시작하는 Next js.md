@@ -189,15 +189,26 @@ npm run dev
 - 폴더 : \src\app : Next.js에서 사용하는 component 
 	- layout.tsx : 애플리케이션 ==공통 레이아웃 정의==한 파일
 	- page.tsx : ==표시할 페이지==를 정의
+-  React 프로젝트의 App.js와 같음. 
+
 
 ![[layout-page.excalidraw]]
 
-- .tsx 파일은 [[Typescript]] 버전 JSX
-- App Router 
+- .tsx 파일은 [[Typescript]] 버전 JSX, 타입스크립트+JSX
+- layout.tsx 내용
+	- import로 객체 불러옴
+	- 폰트 임포트 `const geistSans = localFont({~~})`
+	- Metadata : `export const metadata : Metadata = {`
+	- 컴포넌트 정의 : `export default function RootLayout (~인수~){`
+	- `{children: React.ReactNode};` Reactnode 라는 리액트 가상DOM 노드가 보관된 children 인수가 준비 됐다.
+- page.tsx 내용
+	- return 부분에는 JSX 사용한 내용이 계속 작성 됨
+	- import Image 사용시 `{Image}` 가 아님을 주의!
 
 #### 1.4 Vercel로 배포하기  
-
-
+- [Vercel](https://vercel.com)
+- 프로젝트 생성
+	- clone Template >> Next.js Bilerplate >> add GitHub Account >> install >> Create private Git repository >>Create
 ### 2. 리액트 컴포넌트 학습
 2.1 리액트 함수형 컴포넌트의 기본  
 2.2 스테이트와 훅  
