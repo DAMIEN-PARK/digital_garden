@@ -192,7 +192,9 @@ npm run dev
 -  React 프로젝트의 App.js와 같음. 
 
 
-![[layout-page.excalidraw]]
+![[Pasted image 20250430182018.png|400]]
+
+ㄴ [[layout-page.excalidraw]]
 
 - .tsx 파일은 [[Typescript]] 버전 JSX, 타입스크립트+JSX
 - layout.tsx 내용
