@@ -13,13 +13,4 @@ tags:
 #### 책
 
 
-#### 공부
-
-```dataview
-table source
-from "강의노트"
-where contains(tags, "강의노트")
-sort created desc
-limit 5
-```
-
+#### 연구
