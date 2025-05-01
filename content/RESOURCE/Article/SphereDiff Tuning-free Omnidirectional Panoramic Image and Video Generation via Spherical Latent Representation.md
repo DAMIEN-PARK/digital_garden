@@ -5,6 +5,7 @@ date: 2025-04-22
 tags:
   - VR
   - 가상환경
+publish: true
 ---
 
 - 요약
