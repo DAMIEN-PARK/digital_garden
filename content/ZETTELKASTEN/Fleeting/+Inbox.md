@@ -8,7 +8,13 @@ publish: false
 ---
 
 
----
+### ~ 13일/5
+- [ ] 데이터분석
+- [ ] 데이터분석 시각화
+- [ ] unity
+- [ ] 자동화
+- [ ] metaverse ?
+
 ### 조사
 - [ ] supabase
 - [ ] next.js
