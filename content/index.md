@@ -7,7 +7,7 @@ publish: true
 ---
 ![[profile.png|200]]
 
-![[video.mp4]]
+
 *현재 구 옵시디언 에서  지금 옵시디언으로 이동중
 
 
