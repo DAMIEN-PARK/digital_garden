@@ -3,7 +3,7 @@ title: 홈 화면
 description: 
 date: 2025-04-21
 tags: 
-draft: true
+publish: false
 ---
 [[index|웹페이지 홈화면 구성]]
 ## To-Do

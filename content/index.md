@@ -1,12 +1,12 @@
 ---
-title: Welcome
+title: Home Sweet Home
 description: 지식과 생각을 키우는 정원
 ---
 ---
 ![[profile.png|200]]
 
 
-*현재 구 옵시디언 에서 이동중
+*현재 구 옵시디언 에서  지금 옵시디언으로 이동중
 
 
 안녕하세요! 
@@ -24,7 +24,7 @@ description: 지식과 생각을 키우는 정원
 - [[next.js]]
 - [[Unity]]
 - [[git]]
-- [[JavaScript]]  >개념정리만>  [[Typescript]]
+- [[JavaScript]]  > 개념정리 만>  [[Typescript]]
 - [[빅데이터분석]]
 
 
@@ -39,7 +39,7 @@ description: 지식과 생각을 키우는 정원
 - 데이터분석 시각화
 - unity
 - 업무자동화
-	n8n, make
+	[[n8n]], [[make]]
 
 
 ### 공사내용

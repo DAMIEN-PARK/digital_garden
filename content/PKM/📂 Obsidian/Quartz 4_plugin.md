@@ -4,7 +4,7 @@ description:
 date: 2025-04-22
 tags: 
 URL: 
-draft: true
+publish: true
 ---
 
 ---
@@ -37,4 +37,4 @@ draft: true
 - *_ComponentResources_: Quartz 컴포넌트에서 사용하는 리소스를 관리합다.
 - *_ContentIndex_: 콘텐츠의 인덱스를 생성하여 검색 기능 등을 지원합다.
 
-각 플러그인은 `quartz.config.ts` 파일에서 설정할 수 있으며, 필요에 따라 추가, 제거, 순서 변경이 가능합니. 자세한 설정 방법은 공식 문서의 구성(Configuration)섹션을 참고하시기 바랍니다.
+각 플러그인은 `quartz.config.ts` 파일에서 설정할 수 있으며, 필요에 따라 추가, 제거, 순서 변경이 가능합니. 자세한 설정 방법은 공식 문서의 구성(Configuration)섹션을 참고하시기 바랍니다.

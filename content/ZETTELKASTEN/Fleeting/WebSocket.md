@@ -5,7 +5,7 @@ date:
   - - 2025-04-28
 tags:
   - 통신
-draft: false
+publish: true
 ---
 
 #  웹소켓

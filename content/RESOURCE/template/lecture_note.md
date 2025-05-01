@@ -1,10 +1,11 @@
 ---
 title: <% tp.file.title %>
 description: 
-date: [[<% tp.file.creation_date("YYYY-MM-DD") %>]]
+date:
+  - - <% tp.file.creation_date("YYYY-MM-DD") %>
 tags: 
 URL: 
-draft: true
+publish: false
 ---
 
 #  강의노트 - <% tp.date.now("YYYY.MM.DD") %>

@@ -5,7 +5,7 @@ tags:
   - AI
   - GPT
   - 언어모델
-draft:
+publish: true
 ---
 
 # GPT-4 모델 분석

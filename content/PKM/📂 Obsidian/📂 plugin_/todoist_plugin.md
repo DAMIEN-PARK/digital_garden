@@ -3,7 +3,7 @@ title: todoist 플러그인
 description: 
 date: 2025-04-24
 tags: 
-draft: false
+publish: true
 ---
 
 

@@ -15,7 +15,7 @@ date: 2025-04-29 10:09:00
 total: ""
 isbn: "9791163036319"
 isbn13: "9791163036319"
-draft: false
+publish: true
 ---
 
 ![cover|150](https://shopping-phinf.pstatic.net/main_4958779/49587791618.20240804071023.jpg)

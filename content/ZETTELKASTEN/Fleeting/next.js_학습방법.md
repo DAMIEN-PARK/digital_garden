@@ -3,7 +3,7 @@ title: next.js_학습방법
 description: 
 date: 2025-04-21
 tags: 
-draft: true
+publish: true
 ---
 
 ### 학습방법

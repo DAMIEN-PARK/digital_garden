@@ -16,7 +16,7 @@ date: 2025-04-23
 total: ""
 isbn: "9791190467117"
 isbn13: "9791190467117"
-draft:
+publish: true
 ---
 
 ![cover|150](https://shopping-phinf.pstatic.net/main_3246414/32464144798.20250411141754.jpg)

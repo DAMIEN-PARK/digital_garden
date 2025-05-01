@@ -15,7 +15,7 @@ date: 2025-04-23
 total: ""
 isbn: "9791198364296"
 isbn13: "9791198364296"
-draft:
+publish: true
 ---
 
 ![cover|150](https://shopping-phinf.pstatic.net/main_4791436/47914364621.20240524071048.jpg)

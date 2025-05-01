@@ -5,7 +5,7 @@ date:
   - - 2025-04-28
 tags:
   - 웹
-draft: false
+publish: true
 ---
 
 #  REST API란?

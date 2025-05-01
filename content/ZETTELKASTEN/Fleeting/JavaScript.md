@@ -5,7 +5,7 @@ date:
   - - 2025-04-30
 tags:
   - IT
-draft: true
+publish: true
 ---
 
 

@@ -2,7 +2,7 @@
 title: Lecture
 description: 
 tags: 
-draft: true
+publish: false
 date:
 ---
 

@@ -4,7 +4,7 @@ description: 2025.02.27.~2024.04.18.일까지 교육 내용
 date: 2025-04-21
 tags:
   - 강의
-draft: true
+publish: false
 ---
 
 

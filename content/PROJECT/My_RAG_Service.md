@@ -5,7 +5,7 @@ date: 2025-04-24
 tags:
   - RAG
   - Project
-draft: true
+publish: true
 ---
 
 # RAG Meta World 구현 분석 및 방향성 제안

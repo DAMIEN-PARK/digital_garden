@@ -4,7 +4,7 @@ description:
 date: 2025-04-24
 tags:
   - RAG
-draft: true
+publish: true
 URL: https://huggingface.co/posts/Kseniase/836565977783893?fbclid=IwY2xjawJ1IwJleHRuA2FlbQIxMABicmlkETFGZGxJcU9BbFlSSEI1SGNkAR6bV1jKorImM8JCs0krYPPxLQOWNANuUxfgeWT-ptmOaGtLhpZedgkENo74bw_aem_VEsnEsKp04JVRMV1rKI9ZA
 ---
 

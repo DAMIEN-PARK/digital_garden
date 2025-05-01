@@ -10,11 +10,11 @@ Publish: "{{publishDate}}"
 Cover: "{{coverUrl}}"
 Status:
   - ⏳Ready
-date:  "{{DATE:YYYY-MM-DD HH:mm:ss}}" 
+date: "{{DATE:YYYY-MM-DD HH:mm:ss}}"
 total: "{{totalPage}}"
 isbn: "{{isbn10}}{{isbn13}}"
 isbn13: "{{isbn13}}"
-draft: true
+publish: false
 ---
 
 ![cover|150]({{coverUrl}})

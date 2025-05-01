@@ -3,7 +3,7 @@ title: 옵시디안 WEB연결 노트
 description: 
 date: 2025-04-21
 tags: 
-draft:
+publish: true
 ---
 
 

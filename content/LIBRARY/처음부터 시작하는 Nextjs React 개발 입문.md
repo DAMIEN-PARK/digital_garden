@@ -16,7 +16,7 @@ date: 2025-04-30 10:02:08
 total: ""
 isbn: "9791127468507"
 isbn13: "9791127468507"
-draft: true
+publish: true
 ---
 
 ![cover|150](https://shopping-phinf.pstatic.net/main_5407291/54072912455.20250411141802.jpg)
