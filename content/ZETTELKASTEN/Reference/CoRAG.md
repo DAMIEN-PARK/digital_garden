@@ -7,7 +7,6 @@ tags:
 publish: true
 ---
 
----
 ## CoRAG의 핵심 특징
 1. **분산형 지식 축적**: 다중 클라이언트가 협업 패시지 저장소를 공동 구축
     - 16-shot 환경에서 기존 RAG 대비 33.8% 성능 향상
@@ -70,4 +69,7 @@ CoRAG은 **다음 조건에서 RAG Meta World에 권장**됩니다:
 ✅ 지역별 특화 지식 통합 필요
 
 반면 **단일 사용자 환경이나 고보안 시스템**에서는 기존 RAG 또는 Oreo 모델이 더 적합합니다. 
-최종 선택 시 **하드 네거티브 관리 메커니즘** 반드시 구축해야 하며, Reddit 커뮤니티에서 언급된 Chain of Thought 기법을 결합하면 정확도 15% 추가 향상 가능성이 있습니다[3](https://www.reddit.com/r/LocalLLaMA/comments/1ids22f/microsoft_and_university_of_china_develop_corag/)
+최종 선택 시 **하드 네거티브 관리 메커니즘** 반드시 구축해야 하며, Reddit 커뮤니티에서 언급된 Chain of Thought 기법을 결합하면 정확도 15% 추가 향상 가능성이 있습니다
+
+### reference
+https://www.reddit.com/r/LocalLLaMA/comments/1ids22f/microsoft_and_university_of_china_develop_corag/)
