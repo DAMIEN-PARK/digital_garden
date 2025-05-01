@@ -21,7 +21,7 @@ from "ZETTELKASTEN/Fleeting"
 sort file.mtime DESC
 limit 10
 ```
-![[Roadmap.excalidraw]]
+
 ### 최근 수정된 책(5)
 ```dataview
 TABLE WITHOUT ID
