@@ -1,6 +1,8 @@
 ---
 title: Home Sweet Home
 description: 지식과 생각을 키우는 정원
+tags: 
+publish: true
 ---
 ---
 ![[profile.png|200]]
