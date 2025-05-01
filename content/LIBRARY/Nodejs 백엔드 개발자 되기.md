@@ -63,7 +63,8 @@ URL: https://www.inflearn.com/course/%EC%B4%88%EB%B3%B4-%EB%B0%B1%EC%97%94%EB%93
 ## 13. [[WebSocket]] 사용 실시간 채팅
 
 
-
+## Appendix
+- [[리눅스_명령어]]
 
 
 
