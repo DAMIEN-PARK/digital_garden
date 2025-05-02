@@ -17,6 +17,8 @@ publish: true
 
 이곳은 제가 배우고, 생각하고, 성장하는 과정을 기록하는 공간입니다.
 
+## 데이터 분석 도구
+[데이터 분석 도구 실행하기](https://test0502-fnviabwvlvrcxnzexkgt4g.streamlit.app/){ .btn .btn-primary }
 
 ## 즐겨찾기
 - [[Unity_강의]]
@@ -52,3 +54,6 @@ publish: true
 - 폴더 마다 인덱스.md 를 만들어서 카테고리 링크 걸기
 
 - 개인관심사 page : http:// ==취미/관심사 링크 연결==
+
+ - unity 로 메타버스 도서관 구현 index.md 에..
+ - 
