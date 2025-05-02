@@ -17,8 +17,8 @@ publish: true
 
 이곳은 제가 배우고, 생각하고, 성장하는 과정을 기록하는 공간입니다.
 
-## 데이터 분석 도구
-[데이터 분석 도구 실행하기](https://test0502-fnviabwvlvrcxnzexkgt4g.streamlit.app/){ .btn .btn-primary }
+## 로또생성기
+[로또생성기](https://lrkbt2vchsmrazgenebvha.streamlit.app/)
 
 ## 즐겨찾기
 - [[Unity_강의]]
