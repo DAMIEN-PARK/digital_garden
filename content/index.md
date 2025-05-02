@@ -18,7 +18,7 @@ publish: true
 이곳은 제가 배우고, 생각하고, 성장하는 과정을 기록하는 공간입니다.
 
 ## 로또생성기
-[로또생성기](https://lrkbt2vchsmrazgenebvha.streamlit.app/)
+[로또생성기](https://lrkbt2vchsmrazgenebvha.streamlit.app/){ .btn .btn-primary .btn-large }
 
 ## 즐겨찾기
 - [[Unity_강의]]
