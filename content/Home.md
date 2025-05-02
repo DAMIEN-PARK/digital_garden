@@ -10,7 +10,11 @@ publish: false
 ```todoist
 filter: "today | overdue"
 ```
-
+- [ ] RAG
+- [ ] DATA분석
+- [ ] DATA 분석 시각화
+- [ ] Unity
+- [ ] 자동화
 
 
 ### 최근 수정된 파일(10)
