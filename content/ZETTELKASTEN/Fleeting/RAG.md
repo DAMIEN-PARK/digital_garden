@@ -26,6 +26,7 @@ publish: true
 [[VectorDB_선택가이드]]
 
 ### resources
+- [[RAG 파이프라인 네이버 뉴스기사 기반 Q&A챗복제작]]
 - [블로그_rag란 무엇인가](https://brunch.co.kr/@acc9b16b9f0f430/73)
 - [랭체인LangChain 노트](https://wikidocs.net/book/14314)
 

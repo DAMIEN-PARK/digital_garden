@@ -14,13 +14,7 @@ Python BackEnd + Streamlit frontEnd + 웹앱 배포
 ### 0. Summary
 -  **데이터 대시보드,  인터랙티브 웹앱 ,  웹 기반 데이터 분석 툴, Streamlit 데이터 서비스 또는 내부 툴**
 - ==실행 가능한 것은 `.py` 파일 하나== 임
-- Streamlit에 배포하거나 로컬에서 실행할 때 지정할 수 있는 건 **하나의 메인 파이썬 파일**
-- `st.write()` 등 Streamlit 함수를 포함하고 있어야 하고,
-- 다른 모듈(`utils.py`, `data.py` 등)을 import해서 쓸 수는 있지만,
-- 실행 시 기준이 되는 파일은 **하나의 `.py` 파일**입니다.
-### 1. 사용방법
-
-##### 0. 준비
+- Streaml용
 - [[Anaconda]] 설치
 - 아나콘다 프롬프트에서 : `conda create -n streamlit-app python=3.8`
 	- >> `conda activate streamlit-app` 입력 base에서 (streamlit-app) 으로 바뀜
