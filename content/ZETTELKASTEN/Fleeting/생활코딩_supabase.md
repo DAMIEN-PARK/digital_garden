@@ -59,7 +59,7 @@ JS는 import문이 좀 까다로움
   <input type = "button" value="create" id="create_btn"/>
   <script>
 const supabaseUrl ="https://uuqbndfbwubhnnyjaizm.supabase.co"
-const supabaseKey ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV1cWJuZGZid3ViaG5ueWphaXptIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY0NDgzMjQsImV4cCI6MjA2MjAyNDMyNH0.DUyZB1u7LxuUi4Wrijj8M3CK50ysm7R0NqYpMnvHFXA"
+const supabaseKey ="my key"
 const client = supabase.createClient(supabaseUrl,supabaseKey);
 async function refreshHistory(){
   let { data: record, error } = await client.from("page").select("*");
@@ -161,7 +161,7 @@ create 버튼을 누르고 입력하면 supabase에 자동으로 입력 된다.
         <input type="button" value="login" id="login" />
         <script>
           const supabaseUrl = 'https://uuqbndfbwubhnnyjaizm.supabase.co';
-          const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV1cWJuZGZid3ViaG5ueWphaXptIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY0NDgzMjQsImV4cCI6MjA2MjAyNDMyNH0.DUyZB1u7LxuUi4Wrijj8M3CK50ysm7R0NqYpMnvHFXA';
+          const supabaseKey = 'my key';
           const client = supabase.createClient(supabaseUrl, supabaseKey);
           async function signInWithGithub() {
             const { data, error } = await client.auth.signInWithOAuth({
@@ -315,7 +315,7 @@ WHERE user_id=1
   
     <script>
         const supabaseUrl = 'https://uuqbndfbwubhnnyjaizm.supabase.co';
-        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV1cWJuZGZid3ViaG5ueWphaXptIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY0NDgzMjQsImV4cCI6MjA2MjAyNDMyNH0.DUyZB1u7LxuUi4Wrijj8M3CK50ysm7R0NqYpMnvHFXA'
+        const supabaseKey = 'my key'
         const client = supabase.createClient(supabaseUrl, supabaseKey);
         async function signInWithGithub() {
             const { data, error } = await client.auth.signInWithOAuth({
