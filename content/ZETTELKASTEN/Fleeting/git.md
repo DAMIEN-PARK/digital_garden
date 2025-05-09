@@ -21,7 +21,7 @@ git --version
 - 나오면 정상 설치 완료 ✅
 #### ③ 사용자 정보 설정 (처음 한 번만)
 ```bash
-git config --global user.name "너의 이름"
+git config --global user.name "s나의 이름"
 git config --global user.email "너의 이메일@example.com"
 ```
 - 커밋할 때 "누가 했는지" 정보로 기록됨
