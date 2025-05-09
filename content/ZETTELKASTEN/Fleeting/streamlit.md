@@ -11,7 +11,7 @@ URL: https://streamlit.io/
 Python BackEnd + Streamlit frontEnd + 웹앱 배포
 
 ---
-### 0. Summary
+## 0. Summary
 -  **데이터 대시보드,  인터랙티브 웹앱 ,  웹 기반 데이터 분석 툴, Streamlit 데이터 서비스 또는 내부 툴**
 - ==실행 가능한 것은 `.py` 파일 하나== 임
 - Streaml용
@@ -29,6 +29,34 @@ pip install streamlit pandas numpy seaborn matplotlib finance-datareader
 	![[Pasted image 20250502004542.png|600]]
 
 - 단점 : 색상이 다양하지 않음
+### 자주 쓰는 Streamlit 함수 모음
+- 함수 모음 출처
+	- [출처1](https://python-programming-diary.tistory.com/117) 	 - [출처2](https://foxyprogramming.tistory.com/entry/Streamlit-Streamlit%EC%9D%98-%EA%B8%B0%EC%B4%88-%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0)  	- [출처3](https://docs.kanaries.net/ko/topics/Streamlit/streamlit-components)
+
+**텍스트 및 데이터 출력**
+- `st.title()`, `st.header()`, `st.subheader()`: 제목, 부제목 등 구분
+- `st.text()`, `st.markdown()`, `st.write()`: 일반 텍스트, 마크다운, 데이터프레임 등 출력
+- `st.latex()`: 수식 출력
+- `st.code()`: 코드 블록 출력
+- `st.caption()`: 캡션(짧은 설명) 출력
+
+**입력 위젯**
+- `st.button()`: 버튼 생성
+- `st.text_input()`, `st.text_area()`: 한 줄/여러 줄 텍스트 입력
+- `st.number_input()`: 숫자 입력(정수/실수)
+- `st.date_input()`, `st.time_input()`: 날짜/시간 입력
+- `st.color_picker()`: 색상 선택
+- `st.file_uploader()`: 파일 업로드
+- `st.selectbox()`, `st.multiselect()`: 단일/다중 선택 박스
+- `st.slider()`: 슬라이더(범위 선택)
+
+**레이아웃/기타**
+- `st.sidebar`: 사이드바에 위젯 추가
+- `st.container()`: 레이아웃 그룹핑
+- `st.expander()`: 펼침/접힘 영역
+- `st.image()`, `st.video()`, `st.audio()`: 이미지, 동영상, 오디오 출력
+
+## 1. streamlit 활용 예시
 ##### 01.data.py
 dataframe
 ```python

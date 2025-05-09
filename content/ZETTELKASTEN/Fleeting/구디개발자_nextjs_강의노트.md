@@ -27,9 +27,6 @@ publish: false
 
 
 
-
-
-
 ### 1. next.js란 무엇인가
 
 
