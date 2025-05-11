@@ -24,7 +24,7 @@ publish: true
 (초보자 눈높이에 맞춰 설명하는 Next.js 입문서!)    
 - 저자 : 쇼다 츠야노
 
-- [[ZETTELKASTEN/Fleeting/next.js]] : [[React]] 기반 웹개발 [[frame_work]]
+- [[next.js]] : [[React]] 기반 웹개발 [[frame_work]]
 	- React..js
 	- Tailwindcss
 	- JSS
