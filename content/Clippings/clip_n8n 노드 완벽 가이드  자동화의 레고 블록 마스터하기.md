@@ -1,7 +1,8 @@
 ---
-url: "https://autotask.kr/entry/n8n%EC%9D%98-%EB%85%B8%EB%93%9C-%EC%9E%90%EB%8F%99%ED%99%94%EC%9D%98-%EA%B5%AC%EC%84%B1-%EC%9A%94%EC%86%8C-%EA%B8%B0%EB%B3%B8"
+url: https://autotask.kr/entry/n8n%EC%9D%98-%EB%85%B8%EB%93%9C-%EC%9E%90%EB%8F%99%ED%99%94%EC%9D%98-%EA%B5%AC%EC%84%B1-%EC%9A%94%EC%86%8C-%EA%B8%B0%EB%B3%B8
 tags:
-  - "youtube"
+  - 자동화
+  - Clipping
 created: 2025-05-08
 ---
 n8n 이야기
