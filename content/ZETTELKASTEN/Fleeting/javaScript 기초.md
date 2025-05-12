@@ -3,7 +3,8 @@ title: 무제
 description: 
 date:
   - - 2025-05-12
-tags: 
+tags:
+  - JavaScript
 publish: false
 ---
 
