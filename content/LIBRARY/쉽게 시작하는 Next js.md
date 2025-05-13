@@ -209,15 +209,33 @@ npm run dev
 - 프로젝트 생성
 	- clone Template >> Next.js Bilerplate >> add GitHub Account >> install >> Create private Git repository >>Create
 - github > 프로젝트에서 `.` 누르면 바로VS code 실행됨
-### 2. 리액트 컴포넌트 
+### 2. [[React]] 컴포넌트 
 - 리액트 학습 노트 : [[리액트컴포넌트 학습]]
 - 핵심은 함수형 ==Componet 와 State== 의 활용
 ### 3. Next.js 페이지 만들기
+#### 3.1 리액트 기반 컴포넌트  
+- `layout.tsx` : page 전체 레이아웃
+- `page.tsx` : 홈페이지로 표시할 컨텐츠 `/app` 폴더 안의 컨텐츠
+- ``
 
 
-3.1 리액트 기반 컴포넌트  
-3.2 라우팅과 페이지 이동  
-3.3 스타일과 레이아웃  
+
+
+
+
+
+
+#### 3.2 라우팅과 페이지 이동  
+
+#### 3.3 스타일과 레이아웃  
+
+
+
+
+
+
+
+
 
 ### 4. 페이지 라우터 애플리케이션
 4.1 페이지 라우터에 대해서  
