@@ -1,16 +1,16 @@
 ---
 tags:
   - Book
-title: Nodejs 교과서 (기본기에 충실한 Nodejs 18 입문서)
+title: Nodejs 교과서
 Author:
-  - "조현영"
+  - 조현영
 category: ""
-Publisher: "길벗"
+Publisher: 길벗
 Publish: "2022"
-Cover: "https://shopping-phinf.pstatic.net/main_3647026/36470265624.20230110165934.jpg"
+Cover: https://shopping-phinf.pstatic.net/main_3647026/36470265624.20230110165934.jpg
 Status:
   - ⏳Ready
-date: "2025-05-12 18:12:43"
+date: 2025-05-12 18:12:43
 total: ""
 isbn: "9791140702398"
 isbn13: "9791140702398"

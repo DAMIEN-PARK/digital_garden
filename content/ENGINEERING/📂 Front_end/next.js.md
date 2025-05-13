@@ -4,6 +4,7 @@ date: 2025-04-21
 tags:
   - framework
   - FrontEnd
+  - nextjs
 publish: true
 ---
 

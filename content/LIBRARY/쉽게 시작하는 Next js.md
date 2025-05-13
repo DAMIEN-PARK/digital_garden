@@ -30,8 +30,6 @@ publish: true
 	- JSS
 	- Typescript
 
-
-
 ## 목차
 ### 1. Next.js 기초 지식
 #### 1.1 Next.js 준비하기  
@@ -102,7 +100,6 @@ npm start
 	- 컴포넌트를 넣는 작업은 src 폴더 index.js에서 이뤄짐.
 
 ##### index.js
-
 ```JS
 import React from 'react';
 import ReactDOM from 'react-dom/client';    // 
@@ -161,7 +158,7 @@ export default App;
 	- 함수형 : 다루기 쉬워서 리액트의 주류
 > 리액트는 Component 를 정의하고 표시하는 것이 전부!!
 #### 1.3 Next.js 애플리케이션 개발  
-![[Pasted image 20250430155434.png]]
+![[Pasted image 20250430155434.png|900]]
 
 - 타입스크립트 사용 여부
 - ESLint 사용 여부 : 자바스크립트 코드 분석 도구(문제 코드 감지)
@@ -211,43 +208,44 @@ npm run dev
 - [Vercel](https://vercel.com)
 - 프로젝트 생성
 	- clone Template >> Next.js Bilerplate >> add GitHub Account >> install >> Create private Git repository >>Create
-### 2. 리액트 컴포넌트 학습
-2.1 리액트 함수형 컴포넌트의 기본  
-2.2 스테이트와 훅  
-2.3 컴포넌트 활용  
-**  
-CHAPTER 3 Next.js 페이지 만들기**  
+- github > 프로젝트에서 `.` 누르면 바로VS code 실행됨
+### 2. 리액트 컴포넌트 
+- 리액트 학습 노트 : [[리액트컴포넌트 학습]]
+- 핵심은 함수형 ==Componet 와 State== 의 활용
+### 3. Next.js 페이지 만들기
+
+
 3.1 리액트 기반 컴포넌트  
 3.2 라우팅과 페이지 이동  
 3.3 스타일과 레이아웃  
-**  
-CHAPTER 4 페이지 라우터 애플리케이션**  
+
+### 4. 페이지 라우터 애플리케이션
 4.1 페이지 라우터에 대해서  
 4.2 복수 페이지와 라우팅  
 4.3 레이아웃과 초기 속성  
-**  
-CHAPTER 5 페이지 렌더링**  
+
+### 5. 페이지 렌더링
 5.1 페이지 라우터와 서버 사이드 렌더링  
 5.2 페이지 라우터와 정적 사이트 생성  
 5.3 페이지 라우터의 서버 사이드 렌더링  
 5.4 앱 라우터의 렌더링  
-**  
-CHAPTER 6 데이터 액세스**  
+
+### 6. 데이터 액세스
 6.1 fetch를 이용한 데이터 액세스  
 6.2 서버 액션  
 6.3 SWR에 의한 네트워크 액세스  
-**  
-CHAPTER 7 API 작성과 이용**  
+
+### 7. API 작성과 이용**  
 7.1 페이지 라우터와 API  
 7.2 앱 라우터와 라우트 핸들러  
-**  
-CHAPTER 8 OpenAI API 이용하기**  
+
+### 8. OpenAI API 이용하기
 8.1 OpenAI API 준비하기  
 8.2 Next.js에서 채팅 기능 이용하기  
 8.3 Next.js에서 이미지 생성하기  
 8.4 OpenAI 패키지 이용하기  
-**  
-부록 A 타입스크립트 입문**  
+
+### 부록 A 타입스크립트 입문
 A.1 값, 변수, 구문  
 A.2 함수 이용하기  
 A.3 객체 이용하기
