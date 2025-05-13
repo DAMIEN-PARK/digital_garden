@@ -1,8 +1,7 @@
 ---
-url: https://velog.io/@jihukimme/Node.js%EB%A5%BC-%ED%86%B5%ED%95%B4%EC%84%9C-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
+url: "https://velog.io/@jihukimme/Node.js%EB%A5%BC-%ED%86%B5%ED%95%B4%EC%84%9C-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0"
 tags:
-  - Clipping
-  - backend
+  - "Clipping"
 created: 2025-05-08
 ---
 [jihukimme.log](https://velog.io/@jihukimme/posts)

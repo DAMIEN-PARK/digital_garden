@@ -2,7 +2,6 @@
 url: https://yozm.wishket.com/magazine/detail/2324/
 tags:
   - nextjs
-  - Clipping
 created: 2025-05-06
 publish: false
 ---
