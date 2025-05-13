@@ -6,7 +6,7 @@ date:
 tags: 
 publish: false
 ---
-
+github test
 
 ---
 
@@ -54,5 +54,9 @@ publish: false
 	- 생활(날씨정보, 교통정보), 돈(부동산 주식),문화(음악 영화,드라마)
 	- 일정에 추가
 	- 
+- 데이터엔지니어링 > 데이터분석
+- 데이터시각화 : 하나정도 멀티달 애니메이션 / 가서 끌
+- VR 
 - 
-### Resources
+- 
+- ​Resources
