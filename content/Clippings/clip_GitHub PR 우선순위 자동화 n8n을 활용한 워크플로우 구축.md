@@ -1,8 +1,10 @@
 ---
-url: https://velog.io/@jomminii/n8n-github-pr-notion
+url: "https://velog.io/@jomminii/n8n-github-pr-notion"
 tags:
-  - Clipping
-  - n8n
+  - "Clipping"
+  - "n8n"
+  - "git"
+  - "자동화"
 created: 2025-05-09
 ---
 [jomminii](https://velog.io/@jomminii/posts)
