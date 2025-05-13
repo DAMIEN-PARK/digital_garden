@@ -217,14 +217,114 @@ npm run dev
 - `layout.tsx` : page 전체 레이아웃
 - `page.tsx` : 홈페이지로 표시할 컨텐츠 `/app` 폴더 안의 컨텐츠
 - ``
+```tsx
+import Image from "next/image";
+export default function Home() {
+  return (
+    <main>
+      <h1> Next.js test page </h1>
+      <p> this is test application </p>
+    </main>
+  );
+}
+```
+ㄴ `npm run dev`  로 실행 , h1과 p 만으로만 구성된 간단한 컴포넌트
+##### 폰트-여백 조정
+```tsx
+...
+      <h1 className="text-2xl m-5"> Next.js test page </h1>
+      <p className="text-lg m-5"> this is test application </p>
+```
+##### Tailwind CSS
+| 클래스명       | 풀어쓴 의미                | 설명           |
+| ---------- | --------------------- | ------------ |
+| `text-2xl` | `font-size: 1.5rem`   | 제목용 큰 글자     |
+| `text-lg`  | `font-size: 1.125rem` | 일반보다 약간 큰 글자 |
+| `m-5`      | `margin: 20px`        | 네 방향 모두 여백   |
 
- 
+[[Tailwind CSS 클래스 정리]]
 
+##### form 이용
+- next.js의 컴포넌트는 리액트 기능 그대로 사용 가능
+```tsx
+'use client';     // client 컴포넌트라는걸 나타냄
+import {useState} from 'react';
 
+export default function Home() {
+  var [input, setInput] = useState("");
+  var [message, setMessage] = useState("이름이 뭔가요?");
+  const doChange = (event) => {
+    setInput(event.target.value);
+  };
 
+  const doClick = () => {
+    setMessage("hello " +input );
+    setInput("");
+  }
 
+  return (
+    <main>
+      <h1 className="text-2xl m-5 text-blue-500"> Next.js test page </h1>
+      <p className="text-lg m-5"> {message} </p>
+      <div className='m-5'>
+        <input type='text' onChange={doChange} value={input}
+        className='p-1 border-solid border-2 border-gray-400'/>
+        <button onClick={doClick}
+        className='px-7 py-2 mx-2 bg-blue-800 text-white rounded-lg'>
+        Click </button>
+      </div>
+    </main>
+  );  // return 끝
+}
+```
+ㄴ `'use client';` 리액트의 state 기능 쓸려면 ==반드시 선언== 해야 함.
+ㄴ `import {useState} from 'react';` : 리액트 state hook을 사용하기 위한 구문
+ㄴ input | button 는 tailwind CSS 클래스 지정 표시해야 나타나는걸 유의!!
 
+##### 클래스 정의
+- 실제 개발하면 일일이  className을 지정하는게 보통일이 아님
+	그래서 자주 쓰는걸 class로 정의 해둠
+	src/app 폴더안에 `global.css` 스타일 시트가 있음 여기다가 추가함
+- `global.css`
+```css
+.title{
+  @apply text-2xl m-5 text-red-500;
+}
+.msg {
+  @apply text-lg m-5 text-gray-900;
+}
+.input {
+  @apply p-1 border-solid border-2 border-gray-400 rounded-sm;
+}
+.btn {
+  @apply px-7 py-2 mx-2 bg-blue-800 text-white rounded-lg;
+}
+```
 
+- title | msg | input | btn 클래스를 정의하는 코드
+- `page.tsx` 수정함 `global.css` 를 사용
+```tsx
+return (
+    <main>
+      <h1 className="title"> Next.js test page </h1>
+      <p className="msg"> {message} </p>
+      <div className='m-5'>
+        <input type='text' onChange={doChange} value={input}
+        className='input'/>
+        <button onClick={doClick}
+        className='btn'>
+        Click </button>
+      </div>
+    </main>
+  );  // return 끝
+}
+```
+
+- `@apply` 는 
+	CSS coutom properties를 이용하기 위한 지시어
+	CSS에서 미리 정의된 클래스등을 변수처럼 다룰수 있게 해줌. 
+	클래스 안에는 일일이 스타일 값을 지정해야 되는데, @apply 를 사용해서 클래스 이름을 지정 해 두면 해당 클래스 스타일을 그대로 사용할 수 있음.
+	
 #### 3.2 라우팅과 페이지 이동  
 
 #### 3.3 스타일과 레이아웃  
