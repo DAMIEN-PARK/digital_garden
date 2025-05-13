@@ -18,7 +18,7 @@ publish: false
 - `page.tsx`
 	`rfce` 누르면 기본적인 세틍 가능
 
-![[YT_Next.js 14 업데이트 살펴보기#**1) 라우팅 디렉토리 및 파일 규칙**]]
+![[clip_Next.js 14 업데이트 살펴보기#**1) 라우팅 디렉토리 및 파일 규칙**]]
 
 - `global.css` tailwind 기반으로 개발.  레이아웃 관리.
 - 
