@@ -11,15 +11,10 @@ publish: false
 
 
 ---
-
-
-
-
 ### Resources
 
-
-
-
+[[n8n 기초동작]]
+![[2025-05-15#Dev]]
 ##### Clipping
 
 ```dataview

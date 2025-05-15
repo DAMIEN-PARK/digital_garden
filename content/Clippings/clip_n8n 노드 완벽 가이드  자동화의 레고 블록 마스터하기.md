@@ -3,6 +3,7 @@ url: https://autotask.kr/entry/n8n%EC%9D%98-%EB%85%B8%EB%93%9C-%EC%9E%90%EB%8F%9
 tags:
   - 자동화
   - Clipping
+  - n8n
 created: 2025-05-08
 ---
 n8n 이야기

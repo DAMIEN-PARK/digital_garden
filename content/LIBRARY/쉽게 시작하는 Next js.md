@@ -324,7 +324,42 @@ return (
 	CSS에서 미리 정의된 클래스등을 변수처럼 다룰수 있게 해줌. 
 	클래스 안에는 일일이 스타일 값을 지정해야 되는데, @apply 를 사용해서 클래스 이름을 지정 해 두면 해당 클래스 스타일을 그대로 사용할 수 있음.
 #### 3.2 라우팅과 페이지 이동  
+- 리액트는 ==현재 페이지를 표시하는 동안만 작동하는 프레임 워크==, 
+- Single Page Application : 다른 페이지로 이동하면 모두 사라지는 한페이지 애플리케이션임(SPA라고 함)
+- ![[clip_SPA란 웹 개발 트렌드 SPA의  특징부터 구현 방법까지 모두 알려드립니다! I 이랜서 블로그#SPA(Single Page Application)란?]]
+- 파일 시스템 기반
+	- src 폴더 내 /app 폴더 가 애플리케이션 root가 됨.
+	- 다른페이지는 `/app/새로운 폴더/page.tsx` 이런식으로 컴포넌트 생성
+	- 라우팅을 위한 특별한 설정은 필요없음 `page.tsx` 파일을 폴더안에 넣으면 끝.
+- other 폴더 만들어서 page.tsx 파일 만듬
+```css
+// global.css
+...
+:any-link {
+	@apply text-lg m-5 text-sky-600;
+}
+```
+ any-link는 모든 링크에 적용되는 스타일 정의
+ - app 폴더 내 page.tsx
+```tsx
+import Link from "next/link";
 
+export default function OtherPage() {
+  return (
+    <main>
+        <div>
+        <h1>Other Page</h1>
+        <p>This is another page in the app.</p>
+            <Link href="/">Go back to Home</Link>
+        </div>
+    </main>
+  );
+}
+```
+ - ohter 폴더 내 page.tsx
+```tsx
+
+```
 #### 3.3 스타일과 레이아웃  
 
 
