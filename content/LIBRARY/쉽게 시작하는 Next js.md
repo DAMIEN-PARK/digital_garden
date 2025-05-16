@@ -210,7 +210,7 @@ npm run dev
 	- clone Template >> Next.js Bilerplate >> add GitHub Account >> install >> Create private Git repository >>Create
 - github > 프로젝트에서 `.` 누르면 바로VS code 실행됨
 ### 2. [[React]] 컴포넌트 
-- 리액트 학습 노트 : [[리액트컴포넌트 학습]]
+- 리액트 학습 노트 : [[React_리액트컴포넌트 학습]]
 - 핵심은 함수형 ==Componet 와 State== 의 활용
 ### 3. Next.js 페이지 만들기
 #### 3.1 리액트 기반 컴포넌트  

@@ -11,6 +11,8 @@ publish: false
 filter: "today | overdue"
 ```
 
+[[개인학습_커리큘럼]]
+
 
 - [[유니티_발표용]]
 ### 최근 수정된 파일(10)

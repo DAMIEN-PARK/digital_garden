@@ -8,7 +8,6 @@ tags:
 publish: false
 ---
 
-
 ---
 - 리액트 함수형 컴포넌트의 기본  
 	- 만들어둔 ==REACT_APP== 폴더 이용(next아님 주의)
@@ -127,7 +126,6 @@ function App(props) {
   );
 }
 ```
-
 - 함수형 컴포넌트는 호출때만 작동하고 렌더링 끝나면 사라짐. 함수안의 변수등은 바로 사라짐.
 - 따라서 state를 이용하기 위해 state hook 기능이 있음
 ##### Hook
