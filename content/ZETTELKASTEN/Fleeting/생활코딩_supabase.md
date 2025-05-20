@@ -201,7 +201,7 @@ create 버튼을 누르고 입력하면 supabase에 자동으로 입력 된다.
 
 - 서버(백엔드)엔지니어
 
-![[Pasted image 20250506142636.png|500]]
+![[user-web-lang-db.png|500]]
 
 서버가 최소한 사용(코딩에 집중)
 - 인증(Authentication)과 가공(Edge Function)

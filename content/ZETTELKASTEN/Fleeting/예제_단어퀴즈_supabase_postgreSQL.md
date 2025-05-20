@@ -5,6 +5,7 @@ date:
   - - 2025-05-06
 tags:
   - SQL
+  - supabase
 publish: false
 ---
 

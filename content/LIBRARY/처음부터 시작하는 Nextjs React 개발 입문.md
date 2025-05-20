@@ -3,6 +3,7 @@ tags:
   - IT
   - framework
   - Book
+  - nextjs
 title: 처음부터 시작하는 Nextjs React 개발 입문
 Author:
   - 미요시 아키
