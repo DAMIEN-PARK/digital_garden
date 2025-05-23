@@ -45,7 +45,22 @@ app.get('/pet',function(요청,응답){
 	- 실행 : `nodemon [파일이름](예:server.js)`
 - HTML 파일 보내기
 
+`/` =>home page 의미, 아마도 루트
+```js
+app.get('/', function())
+```
+- HTML 생성
+	- index.html
+	- VScode에서 !치면 생성 됨 (템플릿)
+# Ep.6
+- 요즘은 복붙만 잘하면 HTML/CSS 디자인 끝 (Bootstrap 4)
+- 부트스트랩 라이브러리 설치. (트위터 사내 개발자)
+	- HTML 짜고 CSS 너무 복잡스 
+	- https://getbootstrap.com/docs/5.3/components/buttons/#base-class
+	- ![[Pasted image 20250520161526.png|700]]
+	- 원하는 UI검색 후 예제코드 붙이면 끝
 
-
-
+- 상단 바 만들기
+- 내부바 NavBar
+- 대문 : jumbotron
 ### Resources

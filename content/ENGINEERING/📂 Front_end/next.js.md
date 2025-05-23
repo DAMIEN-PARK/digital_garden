@@ -14,6 +14,13 @@ publish: true
 
 ### Resources
 
+```dataview
+TABLE
+FROM #nextjs 
+SORT file.name ASC
+```
+
+
 ##### book
 [[쉽게 시작하는 Next js]]
 
